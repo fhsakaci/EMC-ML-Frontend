@@ -5,3 +5,6 @@ class machine_learning():
     
     def predict(self):
         pass
+
+    def train(self):
+        pass
