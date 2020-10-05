@@ -25,8 +25,19 @@ class widgets():
         frame.place(x=x,y=y)
         return frame
 
-    def createDropdown(self,tk,x,y,width=None,height=None):
-        dropdown=tkinter.OptionMenu(tk,"one", "two", "three")
+    def createDropdown(self,tk,variable,OptionList,x,y,width=None,height=None):
+        dropdown=tkinter.OptionMenu(tk,variable,*OptionList)
         dropdown.config(width=width,height=height)
         dropdown.place(x=x,y=y)
         return dropdown
+"""""
+    def browseFiles(): 
+        filename = tkinter.filedialog.askopenfilename(initialdir = "/", 
+                                          title = "Select a File", 
+                                          filetypes = (("Text files", 
+                                                        "*.txt*"), 
+                                                       ("all files", 
+                                                        "*.*")))
+        # Change label contents 
+        label_file_explorer.configure(text="File Opened: "+filename) 
+"""""
