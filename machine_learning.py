@@ -1,4 +1,5 @@
 class machine_learning():
+    
     def __init__(self):
         pass
 
@@ -6,5 +7,5 @@ class machine_learning():
     def predict(self):
         pass
 
-    def train(self):
-        pass
+    def train(self,filename):
+        print("Training is starting")

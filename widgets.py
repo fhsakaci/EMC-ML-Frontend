@@ -28,16 +28,8 @@ class widgets():
     def createDropdown(self,tk,variable,OptionList,x,y,width=None,height=None):
         dropdown=tkinter.OptionMenu(tk,variable,*OptionList)
         dropdown.config(width=width,height=height)
+        dropdown["highlightthickness"]=0
         dropdown.place(x=x,y=y)
         return dropdown
-"""""
-    def browseFiles(): 
-        filename = tkinter.filedialog.askopenfilename(initialdir = "/", 
-                                          title = "Select a File", 
-                                          filetypes = (("Text files", 
-                                                        "*.txt*"), 
-                                                       ("all files", 
-                                                        "*.*")))
-        # Change label contents 
-        label_file_explorer.configure(text="File Opened: "+filename) 
-"""""
+
+     
