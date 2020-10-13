@@ -8,12 +8,13 @@ from machine_learning import machine_learning
 
 window = tkinter.Tk()
 Widgets=widgets(window)
-Control=control_panel(window,Widgets,machine_learning)
+Machine_Learning=machine_learning()
+Control=control_panel(window,Widgets,Machine_Learning)
 Graph=graph(window,Widgets)
 
 
 FHS_label=Widgets.createLabel(window,"Furkan Hasan Sakacı",960,580)
-FHS_label.config(bg="gray62")
+FHS_label.config(bg="SlateGray4")
 
 window.mainloop()
  
