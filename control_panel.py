@@ -10,7 +10,7 @@ class control_panel():
 
     def createPanel(self,window):
         panel_frame=self.widgets.createFrame(window,x=580,y=50,width=470,height=500)
-        panel_frame.config(bg="light slate gray")
+        panel_frame.config(bg="gray70")
         return panel_frame
     
     def createPanelContents(self):

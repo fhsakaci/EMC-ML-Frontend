@@ -15,7 +15,7 @@ class graph():
        
 
     def createPanel(self,window):
-        graph_frame=self.widgets.createFrame(window,x=50,y=50,width=600,height=500)
+        graph_frame=self.widgets.createFrame(window,x=50,y=50,width=500,height=400)
         graph_frame.config(bg="gray42")
         return graph_frame
 

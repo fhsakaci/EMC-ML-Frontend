@@ -8,7 +8,7 @@ class widgets():
         self.tk.title("EMC Sonucu Tahmin Sistemi")
         self.tk.geometry("1080x600")
         self.tk.resizable(False,False)
-        self.tk.config(bg="SlateGray4")
+        self.tk.config(bg="light slate gray")
 
     def createButton(self,tk,text,x,y,command=None,width=None,height=None):
         button = tkinter.Button(tk,text=text,command=command,width=width,height=height)
