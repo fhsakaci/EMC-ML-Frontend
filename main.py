@@ -29,8 +29,9 @@ signal.signal( signal.SIGINT, sigint_handler )
 window = tkinter.Tk()
 Widgets=widgets(window)
 Machine_Learning=machine_learning()
-Control=control_panel(window,Widgets,Machine_Learning)
 Graph=graph(window,Widgets)
+Control=control_panel(window,Widgets,Machine_Learning,Graph)
+
 
 
 FHS_label=Widgets.createLabel(window,"Furkan Hasan Sakacı",900,580)

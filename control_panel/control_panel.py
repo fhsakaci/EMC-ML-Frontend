@@ -2,13 +2,14 @@ import tkinter as tk
 from utils import utils
 
 class control_panel():
-    def __init__(self,window,widgets,machine_learning):
+    def __init__(self,window,widgets,machine_learning,graph):
         self.window=window
         self.widgets=widgets
         self.panel_frame=self.createPanel(window)
         self.createPanelContents()
         self.machine_learning=machine_learning
         self.logger = utils.get_logger()
+        self.graph=graph
 
     def createPanel(self,window):
         panel_frame=self.widgets.createFrame(window,x=580,y=50,width=470,height=500)

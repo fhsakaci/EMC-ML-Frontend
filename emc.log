@@ -6,3 +6,42 @@
 [32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
 [32mINFO    [0m [34mTensorFlow version: 1.13.1[0m
 [32mINFO    [0m [34mEager execution: True[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 1.13.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 1.13.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[32mINFO    [0m [34mLocal copy of the dataset file: /home/sakaci/.keras/datasets/iris_training.csv[0m
+[32mINFO    [0m [34mFeatures: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width'][0m
+[32mINFO    [0m [34mLabel: species[0m
+[32mINFO    [0m [34mOrderedDict([('sepal_length', <tf.Tensor: id=58, shape=(32,), dtype=float32, numpy=
+array([ 4.5999999 ,  7.69999981,  6.4000001 ,  6.80000019,  6.0999999 ,
+        5.80000019,  5.80000019,  5.80000019,  6.4000001 ,  6.19999981,
+        4.69999981,  4.9000001 ,  6.0999999 ,  5.0999999 ,  5.69999981,
+        7.69999981,  5.5       ,  5.80000019,  5.0999999 ,  6.80000019,
+        6.30000019,  5.0999999 ,  7.19999981,  6.30000019,  5.9000001 ,
+        7.5999999 ,  6.5       ,  7.9000001 ,  5.80000019,  6.        ,
+        6.0999999 ,  6.69999981], dtype=float32)>), ('sepal_width', <tf.Tensor: id=59, shape=(32,), dtype=float32, numpy=
+array([ 3.5999999 ,  3.79999995,  3.20000005,  2.79999995,  2.5999999 ,
+        2.79999995,  2.70000005,  2.5999999 ,  3.20000005,  3.4000001 ,
+        3.20000005,  3.        ,  3.        ,  3.5       ,  2.79999995,
+        3.        ,  3.5       ,  4.        ,  3.79999995,  3.        ,
+        2.29999995,  3.79999995,  3.20000005,  3.29999995,  3.20000005,
+        3.        ,  3.20000005,  3.79999995,  2.70000005,  2.70000005,
+        2.79999995,  3.0999999 ], dtype=float32)>), ('petal_length', <tf.Tensor: id=56, shape=(32,), dtype=float32, numpy=
+array([ 1.        ,  6.69999981,  5.30000019,  4.80000019,  5.5999999 ,
+        5.0999999 ,  4.0999999 ,  4.        ,  4.5       ,  5.4000001 ,
+        1.60000002,  1.39999998,  4.9000001 ,  1.39999998,  4.5       ,
+        6.0999999 ,  1.29999995,  1.20000005,  1.89999998,  5.5       ,
+        4.4000001 ,  1.5       ,  6.        ,  4.69999981,  4.80000019,
+        6.5999999 ,  5.0999999 ,  6.4000001 ,  5.0999999 ,  5.0999999 ,
+        4.69999981,  4.4000001 ], dtype=float32)>), ('petal_width', <tf.Tensor: id=57, shape=(32,), dtype=float32, numpy=
+array([ 0.2       ,  2.20000005,  2.29999995,  1.39999998,  1.39999998,
+        2.4000001 ,  1.        ,  1.20000005,  1.5       ,  2.29999995,
+        0.2       ,  0.2       ,  1.79999995,  0.30000001,  1.29999995,
+        2.29999995,  0.2       ,  0.2       ,  0.40000001,  2.0999999 ,
+        1.29999995,  0.30000001,  1.79999995,  1.60000002,  1.79999995,
+        2.0999999 ,  2.        ,  2.        ,  1.89999998,  1.60000002,
+        1.20000005,  1.39999998], dtype=float32)>)])[0m
