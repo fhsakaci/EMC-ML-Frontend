@@ -1,4 +1,5 @@
 import tkinter as tk
+from utils import utils
 
 class control_panel():
     def __init__(self,window,widgets,machine_learning):
@@ -7,6 +8,7 @@ class control_panel():
         self.panel_frame=self.createPanel(window)
         self.createPanelContents()
         self.machine_learning=machine_learning
+        self.logger = utils.get_logger()
 
     def createPanel(self,window):
         panel_frame=self.widgets.createFrame(window,x=580,y=50,width=470,height=500)
@@ -16,9 +18,6 @@ class control_panel():
     def createPanelContents(self):
         self.trainingPanel()
         self.testPanel()
-        
-
-        
         
 
     def trainingPanel(self):
@@ -72,7 +71,7 @@ class control_panel():
     def browseFiles(self): 
         self.filename = tk.filedialog.askopenfilename(initialdir = "/",title = "Dosya Seç", 
             filetypes = (("Excel files", "*.csv*"),("all files",     "*.*")))
-        print(self.filename)
+        (self.filename)
         
     def limitControl(self):
         pass

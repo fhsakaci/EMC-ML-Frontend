@@ -1,5 +1,5 @@
 import tkinter
-
+from utils import utils
 from tkinter.constants import *
 
 class widgets():
@@ -9,6 +9,7 @@ class widgets():
         self.tk.geometry("1080x600")
         self.tk.resizable(False,False)
         self.tk.config(bg="light slate gray")
+        self.logger = utils.get_logger()
 
     def createButton(self,tk,text,x,y,command=None,width=None,height=None):
         button = tkinter.Button(tk,text=text,command=command,width=width,height=height)

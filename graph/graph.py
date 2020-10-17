@@ -4,6 +4,7 @@ from matplotlib.backend_bases import key_press_handler
 from matplotlib.figure import Figure
 import numpy as np
 import tkinter
+from utils import utils
 
 class graph():
     def __init__(self,window,widgets):
@@ -12,6 +13,7 @@ class graph():
         self.figure()
         self.draw()
         self.toolbar()
+        self.logger = utils.get_logger()
        
 
     def createPanel(self,window):
@@ -33,6 +35,3 @@ class graph():
         toolbar = NavigationToolbar2Tk(self.canvas, self.panel_frame)
         toolbar.update()
         self.canvas.get_tk_widget().pack(side=tkinter.TOP, fill=tkinter.BOTH, expand=1)
-
-    def exportGraph(self):
-        pass

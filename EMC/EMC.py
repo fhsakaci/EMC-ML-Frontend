@@ -1,4 +1,6 @@
+from utils import utils
+
 class EMC():
     def __init__(self):
-        pass
+        self.logger = utils.get_logger()
     
