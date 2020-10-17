@@ -1,10 +1,10 @@
 import tkinter
 from tkinter.constants import *
-from widgets import widgets
 import numpy as np
-from graph import graph
-from control_panel import control_panel
-from machine_learning import machine_learning
+from widgets.widgets import widgets
+from graph.graph import graph
+from control_panel.control_panel import control_panel
+from machine_learning.machine_learning import machine_learning
 
 window = tkinter.Tk()
 Widgets=widgets(window)
