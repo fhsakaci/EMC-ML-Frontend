@@ -13,7 +13,7 @@ Control=control_panel(window,Widgets,Machine_Learning)
 Graph=graph(window,Widgets)
 
 
-FHS_label=Widgets.createLabel(window,"Furkan Hasan Sakacı",960,580)
+FHS_label=Widgets.createLabel(window,"Furkan Hasan Sakacı",900,580)
 FHS_label.config(bg="light slate gray")
 
 window.mainloop()

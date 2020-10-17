@@ -1,2 +1,4 @@
 *.pyc
 __pycache__/control_panel.cpython-38.pyc
+.vscode/settings.json
+__pycache__/widgets.cpython-38.pyc

@@ -10,7 +10,7 @@ class control_panel():
 
     def createPanel(self,window):
         panel_frame=self.widgets.createFrame(window,x=580,y=50,width=470,height=500)
-        panel_frame.config(bg="gray70")
+        panel_frame.config(bg="gray50")
         return panel_frame
     
     def createPanelContents(self):
@@ -31,14 +31,14 @@ class control_panel():
         variable = tk.StringVar(training_frame)
         variable.set(OptionList[0])
 
-        file_button=self.widgets.createButton(training_frame,"Dosya Seç",220,80,width=20,height=1,command=self.browseFiles)
-        file_button.config(bg="gray60")
-
-        test_type=self.widgets.createDropdown(training_frame,variable,OptionList,220,130,width=18,height=1)
+        test_type=self.widgets.createDropdown(training_frame,variable,OptionList,200,80,width=18,height=1)
         test_type.config(bg="gray60") 
 
+        file_button=self.widgets.createButton(training_frame,"Dosya Seç",200,130,width=20,height=1,command=self.browseFiles)
+        file_button.config(bg="gray60")
 
-        draw_button=self.widgets.createButton(training_frame,"Model Oluştur",220,180,width=20,height=1,command=self.train)
+
+        draw_button=self.widgets.createButton(training_frame,"Model Oluştur",200,180,width=20,height=1,command=self.train)
         draw_button.config(bg="gray60") 
 
     def testPanel(self):
@@ -51,13 +51,17 @@ class control_panel():
         OptionList = ["RE102","CE102"] 
         variable = tk.StringVar(test_frame)
         variable.set(OptionList[0])
-        test_type=self.widgets.createDropdown(test_frame,variable,OptionList,220,50,width=18,height=1)
-        test_type.config(bg="gray60") 
 
-        parameter_button=self.widgets.createButton(test_frame,"Parametreleri Gir",220,100,width=20,height=1,command=self.exit)
+        parameter_button=self.widgets.createButton(test_frame,"Parametreleri Gir",200,100,width=20,height=1,command=self.exit)
         parameter_button.config(bg="gray60")
 
-        predict_button=self.widgets.createButton(test_frame,"Ölçüm Yap",220,150,width=20,height=1,command=self.exit)
+        
+        test_type=self.widgets.createDropdown(test_frame,variable,OptionList,200,50,width=18,height=1)
+        test_type.config(bg="gray60") 
+
+        
+
+        predict_button=self.widgets.createButton(test_frame,"Ölçüm Yap",200,150,width=20,height=1,command=self.exit)
         predict_button.config(bg="gray60")
 
         
