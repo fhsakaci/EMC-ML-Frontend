@@ -36,16 +36,19 @@ class machine_learning():
         self.logger.info("Features: {}".format(features))
         self.logger.info("Label: {}".format(labels))
 
-        abalone_model = tf.keras.Sequential([
+        
+        model = tf.keras.Sequential([
         layers.Dense(64),
         layers.Dense(1)
         ])
 
-        abalone_model.compile(loss = tf.losses.MeanSquaredError(),
+        model.compile(loss = tf.losses.MeanSquaredError(),
                             optimizer = tf.optimizers.Adam())
 
-        abalone_model.fit(features, labels, epochs=10)
 
-    def predict(self,model):
-        pass
-    
+        model.fit(features, labels, epochs=10)
+
+        model.save("saved_model/my_model")
+
+    def predict(self,filename):
+        loaded_model = tf.keras.models.load_model(filename)
