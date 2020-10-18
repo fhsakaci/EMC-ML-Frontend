@@ -25,19 +25,19 @@ class testing():
         test_type=self.widgets.createDropdown(test_frame,variable,OptionList,100,50,width=18,height=1)
         test_type.config(bg="gray60") 
 
-        limit_button=self.widgets.createButton(test_frame,"Model Seç",100,150,width=20,height=1,command=self.loadBrowseFiles)
+        limit_button=self.widgets.createButton(test_frame,"Model Seç",100,150,width=20,height=1,command=self.browseFiles)
         limit_button.config(bg="gray60")
 
-        predict_button=self.widgets.createButton(test_frame,"Ölçüm Yap",100,200,width=20,height=1,command=self.loadBrowseFiles)
+        predict_button=self.widgets.createButton(test_frame,"Ölçüm Yap",100,200,width=20,height=1,command=self.predict)
         predict_button.config(bg="gray60")
 
-    def predict(self,filename):
-        response=self.machine_learning.predict(filename)
-        self.graph.draw(response)
+    def predict(self):
+        response=self.machine_learning.predict(self.path)
+        self.logger.info(str(response))
+        #self.graph.draw(response)
 
-    def BrowseFiles(self): 
-        self.filename = tk.filedialog.askopenfilename(initialdir = "/",title = "Model Seç", 
-            filetypes = (("Excel files", "*.csv*"),("all files",     "*.*")))
+    def browseFiles(self): 
+        self.path = tk.filedialog.askdirectory(initialdir = "/",title = "Model Seç")
         
     def limitControl(self):
         pass

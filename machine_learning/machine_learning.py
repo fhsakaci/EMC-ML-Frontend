@@ -8,9 +8,6 @@ import tensorflow as tf
 from tensorflow.keras import layers
 from tensorflow.keras.layers.experimental import preprocessing
 
-
-
-
 class machine_learning():
     
     def __init__(self):
@@ -18,10 +15,6 @@ class machine_learning():
         self.logger.info("TensorFlow version: {}".format(tf.__version__))
         self.logger.info("Eager execution: {}".format(tf.executing_eagerly()))
 
-
-    
-    def predict(self):
-        pass
 
     def train(self,filename):
         self.logger.debug(str(filename))
@@ -44,11 +37,11 @@ class machine_learning():
 
         model.compile(loss = tf.losses.MeanSquaredError(),
                             optimizer = tf.optimizers.Adam())
-
-
         model.fit(features, labels, epochs=10)
 
         model.save("saved_model/my_model")
 
-    def predict(self,filename):
-        loaded_model = tf.keras.models.load_model(filename)
+    def predict(self,path):
+        x = tf.random.uniform((10, 4))
+        loaded_model = tf.keras.models.load_model(path)
+        return loaded_model.predict(x)
