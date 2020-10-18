@@ -1,12 +1,19 @@
-import tensorflow as tf
 import os
+import pandas as pd
 from utils import utils
+import numpy as np
+import urllib.request as request
+import matplotlib.pyplot as plt
+import tensorflow as tf
+from tensorflow.keras import layers
+from tensorflow.keras.layers.experimental import preprocessing
+
+
 
 
 class machine_learning():
     
     def __init__(self):
-        tf.enable_eager_execution()
         self.logger = utils.get_logger()
         self.logger.info("TensorFlow version: {}".format(tf.__version__))
         self.logger.info("Eager execution: {}".format(tf.executing_eagerly()))
@@ -17,31 +24,28 @@ class machine_learning():
         pass
 
     def train(self,filename):
-        
-        train_dataset_fp = tf.keras.utils.get_file(fname=os.path.basename(filename),
-                                                origin=filename)
-
+        self.logger.debug(str(filename))
+        train_dataset_fp = pd.read_csv(filename)
+        self.logger.debug(train_dataset_fp.head())
         self.logger.info("Local copy of the dataset file: {}".format(train_dataset_fp))
 
-        column_names = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
+        features = train_dataset_fp.copy()
+        labels = features.pop('Value')
 
-        feature_names = column_names[:-1]
-        label_name = column_names[-1]
 
-        self.logger.info("Features: {}".format(feature_names))
-        self.logger.info("Label: {}".format(label_name))
+        self.logger.info("Features: {}".format(features))
+        self.logger.info("Label: {}".format(labels))
 
-        class_names = ['Iris setosa', 'Iris versicolor', 'Iris virginica']
+        abalone_model = tf.keras.Sequential([
+        layers.Dense(64),
+        layers.Dense(1)
+        ])
 
-        batch_size = 32
+        abalone_model.compile(loss = tf.losses.MeanSquaredError(),
+                            optimizer = tf.optimizers.Adam())
 
-        train_dataset = tf.data.experimental.make_csv_dataset(
-            train_dataset_fp,
-            batch_size,
-            column_names=column_names,
-            label_name=label_name,
-            num_epochs=1)
+        abalone_model.fit(features, labels, epochs=10)
 
-        features, labels = next(iter(train_dataset))
-
-        self.logger.info(features)
+    def predict(self,model):
+        pass
+    

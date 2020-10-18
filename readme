@@ -1,0 +1,8 @@
+Tensorflow Kurulumu
+pip install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.13.1-py3-none-any.whl
+https://www.youtube.com/watch?v=Zgw--A7tOk4&ab_channel=OSPY
+
+Python3.9 şu an pip desteği yok o yüzden pipwin kuruldu.
+
+
+python üzerine tensorflow kurarken 64 bit bilgisayar için 64 bit python olmalı 

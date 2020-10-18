@@ -45,3 +45,535 @@ array([ 0.2       ,  2.20000005,  2.29999995,  1.39999998,  1.39999998,
         1.29999995,  0.30000001,  1.79999995,  1.60000002,  1.79999995,
         2.0999999 ,  2.        ,  2.        ,  1.89999998,  1.60000002,
         1.20000005,  1.39999998], dtype=float32)>)])[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mC:/Users/SAKACI/Downloads/iris_training.csv[0m
+[36mDEBUG   [0m [34m     120    4  setosa  versicolor  virginica
+0    6.4  2.8     5.6         2.2          2
+1    5.0  2.3     3.3         1.0          1
+2    4.9  2.5     4.5         1.7          2
+3    4.9  3.1     1.5         0.1          0
+4    5.7  3.8     1.7         0.3          0
+..   ...  ...     ...         ...        ...
+115  5.5  2.6     4.4         1.2          1
+116  5.7  3.0     4.2         1.2          1
+117  4.4  2.9     1.4         0.2          0
+118  4.8  3.0     1.4         0.1          0
+119  5.5  2.4     3.7         1.0          1
+
+[120 rows x 5 columns][0m
+[32mINFO    [0m [34mLocal copy of the dataset file:      120    4  setosa  versicolor  virginica
+0    6.4  2.8     5.6         2.2          2
+1    5.0  2.3     3.3         1.0          1
+2    4.9  2.5     4.5         1.7          2
+3    4.9  3.1     1.5         0.1          0
+4    5.7  3.8     1.7         0.3          0
+..   ...  ...     ...         ...        ...
+115  5.5  2.6     4.4         1.2          1
+116  5.7  3.0     4.2         1.2          1
+117  4.4  2.9     1.4         0.2          0
+118  4.8  3.0     1.4         0.1          0
+119  5.5  2.4     3.7         1.0          1
+
+[120 rows x 5 columns][0m
+[32mINFO    [0m [34mFeatures: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width'][0m
+[32mINFO    [0m [34mLabel: species[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mC:/Users/SAKACI/Downloads/iris_training.csv[0m
+[36mDEBUG   [0m [34m     120    4  setosa  versicolor  virginica
+0    6.4  2.8     5.6         2.2          2
+1    5.0  2.3     3.3         1.0          1
+2    4.9  2.5     4.5         1.7          2
+3    4.9  3.1     1.5         0.1          0
+4    5.7  3.8     1.7         0.3          0
+..   ...  ...     ...         ...        ...
+115  5.5  2.6     4.4         1.2          1
+116  5.7  3.0     4.2         1.2          1
+117  4.4  2.9     1.4         0.2          0
+118  4.8  3.0     1.4         0.1          0
+119  5.5  2.4     3.7         1.0          1
+
+[120 rows x 5 columns][0m
+[32mINFO    [0m [34mLocal copy of the dataset file:      120    4  setosa  versicolor  virginica
+0    6.4  2.8     5.6         2.2          2
+1    5.0  2.3     3.3         1.0          1
+2    4.9  2.5     4.5         1.7          2
+3    4.9  3.1     1.5         0.1          0
+4    5.7  3.8     1.7         0.3          0
+..   ...  ...     ...         ...        ...
+115  5.5  2.6     4.4         1.2          1
+116  5.7  3.0     4.2         1.2          1
+117  4.4  2.9     1.4         0.2          0
+118  4.8  3.0     1.4         0.1          0
+119  5.5  2.4     3.7         1.0          1
+
+[120 rows x 5 columns][0m
+[32mINFO    [0m [34mFeatures: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width'][0m
+[32mINFO    [0m [34mLabel: species[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mC:/Users/SAKACI/Downloads/iris_training.csv[0m
+[36mDEBUG   [0m [34m   120    4  setosa  versicolor  virginica
+0  6.4  2.8     5.6         2.2          2
+1  5.0  2.3     3.3         1.0          1
+2  4.9  2.5     4.5         1.7          2
+3  4.9  3.1     1.5         0.1          0
+4  5.7  3.8     1.7         0.3          0[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:      120    4  setosa  versicolor  virginica
+0    6.4  2.8     5.6         2.2          2
+1    5.0  2.3     3.3         1.0          1
+2    4.9  2.5     4.5         1.7          2
+3    4.9  3.1     1.5         0.1          0
+4    5.7  3.8     1.7         0.3          0
+..   ...  ...     ...         ...        ...
+115  5.5  2.6     4.4         1.2          1
+116  5.7  3.0     4.2         1.2          1
+117  4.4  2.9     1.4         0.2          0
+118  4.8  3.0     1.4         0.1          0
+119  5.5  2.4     3.7         1.0          1
+
+[120 rows x 5 columns][0m
+[32mINFO    [0m [34mFeatures: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width'][0m
+[32mINFO    [0m [34mLabel: species[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mC:/Users/SAKACI/Downloads/iris_training.csv[0m
+[36mDEBUG   [0m [34m   120    4  setosa  versicolor  virginica
+0  6.4  2.8     5.6         2.2          2
+1  5.0  2.3     3.3         1.0          1
+2  4.9  2.5     4.5         1.7          2
+3  4.9  3.1     1.5         0.1          0
+4  5.7  3.8     1.7         0.3          0[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:      120    4  setosa  versicolor  virginica
+0    6.4  2.8     5.6         2.2          2
+1    5.0  2.3     3.3         1.0          1
+2    4.9  2.5     4.5         1.7          2
+3    4.9  3.1     1.5         0.1          0
+4    5.7  3.8     1.7         0.3          0
+..   ...  ...     ...         ...        ...
+115  5.5  2.6     4.4         1.2          1
+116  5.7  3.0     4.2         1.2          1
+117  4.4  2.9     1.4         0.2          0
+118  4.8  3.0     1.4         0.1          0
+119  5.5  2.4     3.7         1.0          1
+
+[120 rows x 5 columns][0m
+[32mINFO    [0m [34mFeatures: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width'][0m
+[32mINFO    [0m [34mLabel: species[0m
+[36mDEBUG   [0m [34mC:/Users/SAKACI/Downloads/iris_training.csv[0m
+[36mDEBUG   [0m [34m   120    4  setosa  versicolor  virginica
+0  6.4  2.8     5.6         2.2          2
+1  5.0  2.3     3.3         1.0          1
+2  4.9  2.5     4.5         1.7          2
+3  4.9  3.1     1.5         0.1          0
+4  5.7  3.8     1.7         0.3          0[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:      120    4  setosa  versicolor  virginica
+0    6.4  2.8     5.6         2.2          2
+1    5.0  2.3     3.3         1.0          1
+2    4.9  2.5     4.5         1.7          2
+3    4.9  3.1     1.5         0.1          0
+4    5.7  3.8     1.7         0.3          0
+..   ...  ...     ...         ...        ...
+115  5.5  2.6     4.4         1.2          1
+116  5.7  3.0     4.2         1.2          1
+117  4.4  2.9     1.4         0.2          0
+118  4.8  3.0     1.4         0.1          0
+119  5.5  2.4     3.7         1.0          1
+
+[120 rows x 5 columns][0m
+[32mINFO    [0m [34mFeatures: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width'][0m
+[32mINFO    [0m [34mLabel: species[0m
+[36mDEBUG   [0m [34mC:/Users/SAKACI/Downloads/iris_training.csv[0m
+[36mDEBUG   [0m [34m   120    4  setosa  versicolor  virginica
+0  6.4  2.8     5.6         2.2          2
+1  5.0  2.3     3.3         1.0          1
+2  4.9  2.5     4.5         1.7          2
+3  4.9  3.1     1.5         0.1          0
+4  5.7  3.8     1.7         0.3          0[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:      120    4  setosa  versicolor  virginica
+0    6.4  2.8     5.6         2.2          2
+1    5.0  2.3     3.3         1.0          1
+2    4.9  2.5     4.5         1.7          2
+3    4.9  3.1     1.5         0.1          0
+4    5.7  3.8     1.7         0.3          0
+..   ...  ...     ...         ...        ...
+115  5.5  2.6     4.4         1.2          1
+116  5.7  3.0     4.2         1.2          1
+117  4.4  2.9     1.4         0.2          0
+118  4.8  3.0     1.4         0.1          0
+119  5.5  2.4     3.7         1.0          1
+
+[120 rows x 5 columns][0m
+[32mINFO    [0m [34mFeatures: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width'][0m
+[32mINFO    [0m [34mLabel: species[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mC:/Users/SAKACI/Downloads/iris_training.csv[0m
+[36mDEBUG   [0m [34m   120    4  setosa  versicolor  virginica
+0  6.4  2.8     5.6         2.2          2
+1  5.0  2.3     3.3         1.0          1
+2  4.9  2.5     4.5         1.7          2
+3  4.9  3.1     1.5         0.1          0
+4  5.7  3.8     1.7         0.3          0[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:      120    4  setosa  versicolor  virginica
+0    6.4  2.8     5.6         2.2          2
+1    5.0  2.3     3.3         1.0          1
+2    4.9  2.5     4.5         1.7          2
+3    4.9  3.1     1.5         0.1          0
+4    5.7  3.8     1.7         0.3          0
+..   ...  ...     ...         ...        ...
+115  5.5  2.6     4.4         1.2          1
+116  5.7  3.0     4.2         1.2          1
+117  4.4  2.9     1.4         0.2          0
+118  4.8  3.0     1.4         0.1          0
+119  5.5  2.4     3.7         1.0          1
+
+[120 rows x 5 columns][0m
+[32mINFO    [0m [34mFeatures: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width'][0m
+[32mINFO    [0m [34mLabel: species[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mD:/iris_training.csv[0m
+[36mDEBUG   [0m [34m   120    4  setosa  versicolor  virginica
+0  6.4  2.8     5.6         2.2          2
+1  5.0  2.3     3.3         1.0          1
+2  4.9  2.5     4.5         1.7          2
+3  4.9  3.1     1.5         0.1          0
+4  5.7  3.8     1.7         0.3          0[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:      120    4  setosa  versicolor  virginica
+0    6.4  2.8     5.6         2.2          2
+1    5.0  2.3     3.3         1.0          1
+2    4.9  2.5     4.5         1.7          2
+3    4.9  3.1     1.5         0.1          0
+4    5.7  3.8     1.7         0.3          0
+..   ...  ...     ...         ...        ...
+115  5.5  2.6     4.4         1.2          1
+116  5.7  3.0     4.2         1.2          1
+117  4.4  2.9     1.4         0.2          0
+118  4.8  3.0     1.4         0.1          0
+119  5.5  2.4     3.7         1.0          1
+
+[120 rows x 5 columns][0m
+[32mINFO    [0m [34mFeatures: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width'][0m
+[32mINFO    [0m [34mLabel: species[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mD:/iris_training.csv[0m
+[36mDEBUG   [0m [34m   120    4  setosa  versicolor  virginica
+0  6.4  2.8     5.6         2.2          2
+1  5.0  2.3     3.3         1.0          1
+2  4.9  2.5     4.5         1.7          2
+3  4.9  3.1     1.5         0.1          0
+4  5.7  3.8     1.7         0.3          0[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:      120    4  setosa  versicolor  virginica
+0    6.4  2.8     5.6         2.2          2
+1    5.0  2.3     3.3         1.0          1
+2    4.9  2.5     4.5         1.7          2
+3    4.9  3.1     1.5         0.1          0
+4    5.7  3.8     1.7         0.3          0
+..   ...  ...     ...         ...        ...
+115  5.5  2.6     4.4         1.2          1
+116  5.7  3.0     4.2         1.2          1
+117  4.4  2.9     1.4         0.2          0
+118  4.8  3.0     1.4         0.1          0
+119  5.5  2.4     3.7         1.0          1
+
+[120 rows x 5 columns][0m
+[32mINFO    [0m [34mFeatures: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width'][0m
+[32mINFO    [0m [34mLabel: species[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mD:/iris_training.csv[0m
+[36mDEBUG   [0m [34m   120    4  setosa  versicolor  virginica
+0  6.4  2.8     5.6         2.2          2
+1  5.0  2.3     3.3         1.0          1
+2  4.9  2.5     4.5         1.7          2
+3  4.9  3.1     1.5         0.1          0
+4  5.7  3.8     1.7         0.3          0[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:      120    4  setosa  versicolor  virginica
+0    6.4  2.8     5.6         2.2          2
+1    5.0  2.3     3.3         1.0          1
+2    4.9  2.5     4.5         1.7          2
+3    4.9  3.1     1.5         0.1          0
+4    5.7  3.8     1.7         0.3          0
+..   ...  ...     ...         ...        ...
+115  5.5  2.6     4.4         1.2          1
+116  5.7  3.0     4.2         1.2          1
+117  4.4  2.9     1.4         0.2          0
+118  4.8  3.0     1.4         0.1          0
+119  5.5  2.4     3.7         1.0          1
+
+[120 rows x 5 columns][0m
+[32mINFO    [0m [34mFeatures: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width'][0m
+[32mINFO    [0m [34mLabel: species[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: False[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mD:/iris_training.csv[0m
+[36mDEBUG   [0m [34m   120    4  setosa  versicolor  virginica
+0  6.4  2.8     5.6         2.2          2
+1  5.0  2.3     3.3         1.0          1
+2  4.9  2.5     4.5         1.7          2
+3  4.9  3.1     1.5         0.1          0
+4  5.7  3.8     1.7         0.3          0[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:      120    4  setosa  versicolor  virginica
+0    6.4  2.8     5.6         2.2          2
+1    5.0  2.3     3.3         1.0          1
+2    4.9  2.5     4.5         1.7          2
+3    4.9  3.1     1.5         0.1          0
+4    5.7  3.8     1.7         0.3          0
+..   ...  ...     ...         ...        ...
+115  5.5  2.6     4.4         1.2          1
+116  5.7  3.0     4.2         1.2          1
+117  4.4  2.9     1.4         0.2          0
+118  4.8  3.0     1.4         0.1          0
+119  5.5  2.4     3.7         1.0          1
+
+[120 rows x 5 columns][0m
+[32mINFO    [0m [34mFeatures: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width'][0m
+[32mINFO    [0m [34mLabel: species[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.1[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34miris_training.csv[0m
+[36mDEBUG   [0m [34m   120    4  setosa  versicolor  virginica
+0  6.4  2.8     5.6         2.2          2
+1  5.0  2.3     3.3         1.0          1
+2  4.9  2.5     4.5         1.7          2
+3  4.9  3.1     1.5         0.1          0
+4  5.7  3.8     1.7         0.3          0[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:      120    4  setosa  versicolor  virginica
+0    6.4  2.8     5.6         2.2          2
+1    5.0  2.3     3.3         1.0          1
+2    4.9  2.5     4.5         1.7          2
+3    4.9  3.1     1.5         0.1          0
+4    5.7  3.8     1.7         0.3          0
+..   ...  ...     ...         ...        ...
+115  5.5  2.6     4.4         1.2          1
+116  5.7  3.0     4.2         1.2          1
+117  4.4  2.9     1.4         0.2          0
+118  4.8  3.0     1.4         0.1          0
+119  5.5  2.4     3.7         1.0          1
+
+[120 rows x 5 columns][0m
+[32mINFO    [0m [34mFeatures: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width'][0m
+[32mINFO    [0m [34mLabel: species[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mC:/Users/SAKACI/Desktop/Frontend/iris_training.csv[0m
+[36mDEBUG   [0m [34m   120    4  setosa  versicolor  virginica
+0  6.4  2.8     5.6         2.2          2
+1  5.0  2.3     3.3         1.0          1
+2  4.9  2.5     4.5         1.7          2
+3  4.9  3.1     1.5         0.1          0
+4  5.7  3.8     1.7         0.3          0[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:      120    4  setosa  versicolor  virginica
+0    6.4  2.8     5.6         2.2          2
+1    5.0  2.3     3.3         1.0          1
+2    4.9  2.5     4.5         1.7          2
+3    4.9  3.1     1.5         0.1          0
+4    5.7  3.8     1.7         0.3          0
+..   ...  ...     ...         ...        ...
+115  5.5  2.6     4.4         1.2          1
+116  5.7  3.0     4.2         1.2          1
+117  4.4  2.9     1.4         0.2          0
+118  4.8  3.0     1.4         0.1          0
+119  5.5  2.4     3.7         1.0          1
+
+[120 rows x 5 columns][0m
+[32mINFO    [0m [34mFeatures: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width'][0m
+[32mINFO    [0m [34mLabel: species[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mC:/Users/SAKACI/Desktop/Frontend/iris_training.csv[0m
+[36mDEBUG   [0m [34m   120    4  setosa  versicolor  virginica
+0  6.4  2.8     5.6         2.2          2
+1  5.0  2.3     3.3         1.0          1
+2  4.9  2.5     4.5         1.7          2
+3  4.9  3.1     1.5         0.1          0
+4  5.7  3.8     1.7         0.3          0[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:      120    4  setosa  versicolor  virginica
+0    6.4  2.8     5.6         2.2          2
+1    5.0  2.3     3.3         1.0          1
+2    4.9  2.5     4.5         1.7          2
+3    4.9  3.1     1.5         0.1          0
+4    5.7  3.8     1.7         0.3          0
+..   ...  ...     ...         ...        ...
+115  5.5  2.6     4.4         1.2          1
+116  5.7  3.0     4.2         1.2          1
+117  4.4  2.9     1.4         0.2          0
+118  4.8  3.0     1.4         0.1          0
+119  5.5  2.4     3.7         1.0          1
+
+[120 rows x 5 columns][0m
+[32mINFO    [0m [34mFeatures: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width'][0m
+[32mINFO    [0m [34mLabel: species[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mC:/Users/SAKACI/Desktop/Frontend/iris_training.csv[0m
+[36mDEBUG   [0m [34m   120    4  setosa  versicolor  virginica
+0  6.4  2.8     5.6         2.2          2
+1  5.0  2.3     3.3         1.0          1
+2  4.9  2.5     4.5         1.7          2
+3  4.9  3.1     1.5         0.1          0
+4  5.7  3.8     1.7         0.3          0[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:      120    4  setosa  versicolor  virginica
+0    6.4  2.8     5.6         2.2          2
+1    5.0  2.3     3.3         1.0          1
+2    4.9  2.5     4.5         1.7          2
+3    4.9  3.1     1.5         0.1          0
+4    5.7  3.8     1.7         0.3          0
+..   ...  ...     ...         ...        ...
+115  5.5  2.6     4.4         1.2          1
+116  5.7  3.0     4.2         1.2          1
+117  4.4  2.9     1.4         0.2          0
+118  4.8  3.0     1.4         0.1          0
+119  5.5  2.4     3.7         1.0          1
+
+[120 rows x 5 columns][0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mD:/GPS-Data.csv[0m
+[32mINFO    [0m [34mLabel: 0      0.50
+1      0.10
+2      0.66
+3      0.90
+4      0.03
+       ... 
+131    1.30
+132    0.70
+133    0.20
+134    4.80
+135    0.80
+Name: Value, Length: 136, dtype: float64[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mD:/GPS-Data.csv[0m
+[32mINFO    [0m [34mLabel: 0      0.50
+1      0.10
+2      0.66
+3      0.90
+4      0.03
+       ... 
+131    1.30
+132    0.70
+133    0.20
+134    4.80
+135    0.80
+Name: Value, Length: 136, dtype: float64[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mD:/Test_Dataset.csv[0m
+[36mDEBUG   [0m [34m   Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:    Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mFeatures:    Lat  Lon  Dist  Area
+0    1    1     1     1
+1    2    2     2     2
+2    3   33     3     3
+3    4    4     4    44[0m
+[32mINFO    [0m [34mLabel: 0    1
+1    2
+2    3
+3    4
+Name: Value, dtype: int64[0m
