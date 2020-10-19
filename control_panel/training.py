@@ -1,6 +1,7 @@
 from utils import utils
 import tkinter as tk
 from control_panel import control_panel
+from datetime import datetime
 
 class training():
     def __init__(self,window,widgets,machine_learning):
@@ -14,10 +15,10 @@ class training():
         title1_label=self.widgets.createLabel(training_frame,"Yeni Eğitim Modeli Üret",200,20,font=("Times New Roman", 16),anchor="center")
         title1_label.config(bg="gray70")
         OptionList = ["RE102","CE102"] 
-        variable = tk.StringVar(training_frame)
-        variable.set(OptionList[0])
+        self.variable = tk.StringVar(training_frame)
+        self.variable.set(OptionList[0])
 
-        test_type=self.widgets.createDropdown(training_frame,variable,OptionList,100,50,width=18,height=1)
+        test_type=self.widgets.createDropdown(training_frame,self.variable,OptionList,100,50,width=18,height=1)
         test_type.config(bg="gray60") 
 
         file_button=self.widgets.createButton(training_frame,"Dosya Seç",100,100,width=20,height=1,command=self.browseFiles)
@@ -30,7 +31,17 @@ class training():
 
     
     def train(self):
-        self.machine_learning.train(self.filename)
+        savePath=self.saveFolderLocation()
+        model=self.machine_learning.train(self.filename)
+        model.save(savePath)
+    
+    def saveFolderLocation(self): 
+        directory = tk.filedialog.askdirectory (initialdir = "/",title = "Dosya Seç")
+        filename=str(int(datetime.now().timestamp()))
+        testType=self.variable.get()
+        savePath=directory+"/"+testType+"-"+filename
+        return savePath
+
 
     def browseFiles(self): 
         self.filename = tk.filedialog.askopenfilename(initialdir = "/",title = "Dosya Seç", 

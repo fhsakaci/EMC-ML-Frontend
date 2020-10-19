@@ -11,7 +11,6 @@ import os
 
 
 def sigint_handler(signum, frame):
-    global mqtt_client
     if signum == signal.SIGINT:
         logger.error( 'Interrupt signal caught, process exiting...' )
     if signum == signal.SIGUSR1:

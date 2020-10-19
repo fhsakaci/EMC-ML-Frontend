@@ -38,8 +38,7 @@ class machine_learning():
         model.compile(loss = tf.losses.MeanSquaredError(),
                             optimizer = tf.optimizers.Adam())
         model.fit(features, labels, epochs=10)
-
-        model.save("saved_model/my_model")
+        return model    
 
     def predict(self,path):
         x = tf.random.uniform((10, 4))

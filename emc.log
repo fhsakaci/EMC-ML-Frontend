@@ -700,3 +700,328 @@ Name: Value, dtype: int64[0m
  [0.11100853]
  [0.11100853]
  [0.11100853]][0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mD:/Test_Dataset.csv[0m
+[36mDEBUG   [0m [34m   Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:    Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mFeatures:    Lat  Lon  Dist  Area
+0    1    1     1     1
+1    2    2     2     2
+2    3   33     3     3
+3    4    4     4    44[0m
+[32mINFO    [0m [34mLabel: 0    1
+1    2
+2    3
+3    4
+Name: Value, dtype: int64[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mD:/Test_Dataset.csv[0m
+[36mDEBUG   [0m [34m   Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:    Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mFeatures:    Lat  Lon  Dist  Area
+0    1    1     1     1
+1    2    2     2     2
+2    3   33     3     3
+3    4    4     4    44[0m
+[32mINFO    [0m [34mLabel: 0    1
+1    2
+2    3
+3    4
+Name: Value, dtype: int64[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mD:/Test_Dataset.csv[0m
+[36mDEBUG   [0m [34m   Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:    Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mFeatures:    Lat  Lon  Dist  Area
+0    1    1     1     1
+1    2    2     2     2
+2    3   33     3     3
+3    4    4     4    44[0m
+[32mINFO    [0m [34mLabel: 0    1
+1    2
+2    3
+3    4
+Name: Value, dtype: int64[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mD:/Test_Dataset.csv[0m
+[36mDEBUG   [0m [34m   Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:    Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mFeatures:    Lat  Lon  Dist  Area
+0    1    1     1     1
+1    2    2     2     2
+2    3   33     3     3
+3    4    4     4    44[0m
+[32mINFO    [0m [34mLabel: 0    1
+1    2
+2    3
+3    4
+Name: Value, dtype: int64[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mD:/Test_Dataset.csv[0m
+[36mDEBUG   [0m [34m   Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:    Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mFeatures:    Lat  Lon  Dist  Area
+0    1    1     1     1
+1    2    2     2     2
+2    3   33     3     3
+3    4    4     4    44[0m
+[32mINFO    [0m [34mLabel: 0    1
+1    2
+2    3
+3    4
+Name: Value, dtype: int64[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mD:/Test_Dataset.csv[0m
+[36mDEBUG   [0m [34m   Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:    Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mFeatures:    Lat  Lon  Dist  Area
+0    1    1     1     1
+1    2    2     2     2
+2    3   33     3     3
+3    4    4     4    44[0m
+[32mINFO    [0m [34mLabel: 0    1
+1    2
+2    3
+3    4
+Name: Value, dtype: int64[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mD:/Test_Dataset.csv[0m
+[36mDEBUG   [0m [34m   Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:    Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mFeatures:    Lat  Lon  Dist  Area
+0    1    1     1     1
+1    2    2     2     2
+2    3   33     3     3
+3    4    4     4    44[0m
+[32mINFO    [0m [34mLabel: 0    1
+1    2
+2    3
+3    4
+Name: Value, dtype: int64[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mD:/Test_Dataset.csv[0m
+[36mDEBUG   [0m [34m   Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:    Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mFeatures:    Lat  Lon  Dist  Area
+0    1    1     1     1
+1    2    2     2     2
+2    3   33     3     3
+3    4    4     4    44[0m
+[32mINFO    [0m [34mLabel: 0    1
+1    2
+2    3
+3    4
+Name: Value, dtype: int64[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mD:/Test_Dataset.csv[0m
+[36mDEBUG   [0m [34m   Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:    Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mFeatures:    Lat  Lon  Dist  Area
+0    1    1     1     1
+1    2    2     2     2
+2    3   33     3     3
+3    4    4     4    44[0m
+[32mINFO    [0m [34mLabel: 0    1
+1    2
+2    3
+3    4
+Name: Value, dtype: int64[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mD:/Test_Dataset.csv[0m
+[36mDEBUG   [0m [34m   Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:    Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mFeatures:    Lat  Lon  Dist  Area
+0    1    1     1     1
+1    2    2     2     2
+2    3   33     3     3
+3    4    4     4    44[0m
+[32mINFO    [0m [34mLabel: 0    1
+1    2
+2    3
+3    4
+Name: Value, dtype: int64[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mD:/Test_Dataset.csv[0m
+[36mDEBUG   [0m [34m   Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:    Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mFeatures:    Lat  Lon  Dist  Area
+0    1    1     1     1
+1    2    2     2     2
+2    3   33     3     3
+3    4    4     4    44[0m
+[32mINFO    [0m [34mLabel: 0    1
+1    2
+2    3
+3    4
+Name: Value, dtype: int64[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mD:/Test_Dataset.csv[0m
+[36mDEBUG   [0m [34m   Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:    Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mFeatures:    Lat  Lon  Dist  Area
+0    1    1     1     1
+1    2    2     2     2
+2    3   33     3     3
+3    4    4     4    44[0m
+[32mINFO    [0m [34mLabel: 0    1
+1    2
+2    3
+3    4
+Name: Value, dtype: int64[0m
+[36mDEBUG   [0m [34mD:/Test_Dataset.csv[0m
+[36mDEBUG   [0m [34m   Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:    Lat  Lon  Dist  Area  Value
+0    1    1     1     1      1
+1    2    2     2     2      2
+2    3   33     3     3      3
+3    4    4     4    44      4[0m
+[32mINFO    [0m [34mFeatures:    Lat  Lon  Dist  Area
+0    1    1     1     1
+1    2    2     2     2
+2    3   33     3     3
+3    4    4     4    44[0m
+[32mINFO    [0m [34mLabel: 0    1
+1    2
+2    3
+3    4
+Name: Value, dtype: int64[0m
+[32mINFO    [0m [34m[[0.09957637]
+ [0.09957637]
+ [0.09957637]
+ [0.09957637]
+ [0.09957637]
+ [0.09957637]
+ [0.09957637]
+ [0.09957637]
+ [0.09957637]
+ [0.09957637]][0m
