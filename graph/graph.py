@@ -10,6 +10,8 @@ class graph():
     def __init__(self,window,widgets):
         self.widgets=widgets
         self.panel_frame=self.createPanel(window)
+        self.fig = Figure(figsize=(5, 4), dpi=100)
+        self.canvas = FigureCanvasTkAgg(self.fig, master=self.panel_frame)  # A tk.DrawingArea.
         self.figure()
         self.draw()
         self.toolbar()
@@ -22,12 +24,11 @@ class graph():
         return graph_frame
 
     def figure(self):
-        self.fig = Figure(figsize=(5, 4), dpi=100)
-        t = np.arange(0, 3, .01)
-        self.fig.add_subplot(111).plot(t, 2 * np.sin(2 * np.pi * t))
-    
+        f = np.arange(150000, 1000000, 1000)
+        self.graph=self.fig.add_subplot(111)
+        
+
     def draw(self):
-        self.canvas = FigureCanvasTkAgg(self.fig, master=self.panel_frame)  # A tk.DrawingArea.
         self.canvas.draw()
         self.canvas.get_tk_widget().pack(side=tkinter.TOP, fill=tkinter.BOTH, expand=1)
     
@@ -35,3 +36,11 @@ class graph():
         toolbar = NavigationToolbar2Tk(self.canvas, self.panel_frame)
         toolbar.update()
         self.canvas.get_tk_widget().pack(side=tkinter.TOP, fill=tkinter.BOTH, expand=1)
+
+    def draw_fig(self,data):
+        data=data[0,:,0]
+        print(data)
+        f = np.arange(150000, 1000000, 100)
+        self.line=self.graph.plot(f, data)
+        print(self.line)
+        

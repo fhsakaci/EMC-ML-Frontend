@@ -34,7 +34,8 @@ class testing():
     def predict(self):
         response=self.machine_learning.predict(self.path)
         self.logger.info(str(response))
-        #self.graph.draw(response)
+        self.graph.draw_fig(response)
+        self.graph.draw()
 
     def browseFiles(self): 
         self.path = tk.filedialog.askdirectory(initialdir = "/",title = "Model Seç")

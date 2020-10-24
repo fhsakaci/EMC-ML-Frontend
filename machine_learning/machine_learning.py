@@ -23,7 +23,7 @@ class machine_learning():
         self.logger.info("Local copy of the dataset file: {}".format(train_dataset_fp))
 
         features = train_dataset_fp.copy()
-        labels = features.pop('Value')
+        labels = features.pop('Level')
 
 
         self.logger.info("Features: {}".format(features))
@@ -31,16 +31,26 @@ class machine_learning():
 
         
         model = tf.keras.Sequential([
-        layers.Dense(64),
-        layers.Dense(1)
+        layers.Dense(60),
+        layers.Dense(15),
+        layers.Dense(5),
+        layers.Dense(1),
         ])
 
-        model.compile(loss = tf.losses.MeanSquaredError(),
-                            optimizer = tf.optimizers.Adam())
-        model.fit(features, labels, epochs=10)
+        model.compile(loss='mean_squared_error',
+                            optimizer = tf.optimizers.Adam(),
+                            metrics=['accuracy'])
+        model.fit(features, labels, epochs=50,batch_size= 64,validation_split=0.2)
         return model    
 
     def predict(self,path):
-        x = tf.random.uniform((10, 4))
+        dataset = []
+        for i in range(150000,1000000,100):
+            print(i)
+            data=tf.constant([10, 30, 70000, i])
+            dataset.append(data)
+        
+        x = tf.stack([dataset])
+        print(x)
         loaded_model = tf.keras.models.load_model(path)
         return loaded_model.predict(x)
