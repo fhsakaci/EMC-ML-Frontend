@@ -33,4 +33,8 @@ class widgets():
         dropdown.place(x=x,y=y,anchor=anchor)
         return dropdown
 
+    def createText(self,tk,variable,x,y,width,height,anchor=None):
+        text=tkinter.Entry(tk,width = width,textvariable = variable)
+        text.place(x=x,y=y,anchor=anchor)
+        return text
      

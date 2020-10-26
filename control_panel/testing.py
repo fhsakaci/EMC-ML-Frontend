@@ -18,7 +18,7 @@ class testing():
         variable = tk.StringVar(test_frame)
         variable.set(OptionList[0])
 
-        parameter_button=self.widgets.createButton(test_frame,"Parametreleri Gir",100,100,width=20,height=1,command=self.exit)
+        parameter_button=self.widgets.createButton(test_frame,"Parametreleri Gir",100,100,width=20,height=1,command=self.parameters)
         parameter_button.config(bg="gray60")
 
         
@@ -42,8 +42,43 @@ class testing():
         
     def limitControl(self):
         pass
+    
+    def parameters(self):
+        popup = tk.Tk()
+        popup.geometry("680x350")
+        popup.wm_title("Parametreleri Gir")
+        self.C_in_variable = tk.StringVar()
+        self.widgets.createLabel(popup,"Giriş Kapasitesi: ",40,80)
+        C_in=self.widgets.createText(popup,self.C_in_variable,150,80,width=15,height=1)
+
+        self.C_out_variable = tk.StringVar()
+        self.widgets.createLabel(popup,"Çıkış Kapasitesi: ",40,150)
+        C_out=self.widgets.createText(popup,self.C_out_variable,150,150,width=15,height=1)
+
+        self.switch_freq_variable = tk.StringVar()
+        self.widgets.createLabel(popup,"Tetikleme Frekansı: ",40,220)
+        switch_freq=self.widgets.createText(popup,self.switch_freq_variable,150,220,width=15,height=1)
+
+        self.input_voltage_variable = tk.StringVar()
+        self.widgets.createLabel(popup,"Giriş Gerilimi: ",400,80)
+        input_voltage=self.widgets.createText(popup,self.input_voltage_variable,500,80,width=15,height=1)
+
+        self.output_voltage_variable = tk.StringVar()
+        self.widgets.createLabel(popup,"Çıkış Gerilimi: ",400,150)
+        output_voltage=self.widgets.createText(popup,self.output_voltage_variable,500,150,width=15,height=1)
+
+        self.output_current_variable = tk.StringVar()
+        self.widgets.createLabel(popup,"Çıkış Akımı: ",400,220)
+        output_current=self.widgets.createText(popup,self.output_current_variable,500,220,width=15,height=1)
+
+
+        B1 = self.widgets.createButton(popup, "Parametreleri Al",500,300,width=20,height=1, command = self.set_parameters)
+        popup.mainloop()
 
     
+    def set_parameters(self):
+        pass
+
     def exit(self):
         pass
     
