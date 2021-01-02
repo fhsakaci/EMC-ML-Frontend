@@ -30,27 +30,46 @@ class machine_learning():
         self.logger.info("Label: {}".format(labels))
 
         
+        normalizer = preprocessing.Normalization()
+        normalizer.adapt(np.array(features))
         model = tf.keras.Sequential([
-        layers.Dense(60),
-        layers.Dense(15),
-        layers.Dense(5),
-        layers.Dense(1),
+            normalizer,
+            layers.Dense(256, activation='relu'),
+            layers.Dense(128, activation='relu'),
+            layers.Dense(64, activation='relu'),
+            layers.Dense(64, activation='relu'),
+            layers.Dense(64, activation='relu'),
+            layers.Dense(32, activation='sigmoid'),
+            layers.Dense(1)
         ])
+        
 
-        model.compile(loss='mean_squared_error',
-                            optimizer = tf.optimizers.Adam(),
-                            metrics=['accuracy'])
-        model.fit(features, labels, epochs=50,batch_size= 64,validation_split=0.2)
+        model.summary()
+
+        
+        
+        model.compile(
+                optimizer=tf.optimizers.Adam(0.001),
+                loss='mean_squared_error',
+                metrics=['accuracy'])
+        ##time
+        model.fit(
+            features, labels, 
+            epochs=1000,
+            # suppress logging
+            verbose=0,
+            # Calculate validation results on 20% of the training data
+            validation_split = 0.2)
+
+        self.logger.info("Model has been created")
         return model    
 
     def predict(self,path):
         dataset = []
         for i in range(150000,1000000,100):
-            print(i)
             data=tf.constant([10, 30, 70000, i])
             dataset.append(data)
         
         x = tf.stack([dataset])
-        print(x)
         loaded_model = tf.keras.models.load_model(path)
         return loaded_model.predict(x)
