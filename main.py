@@ -30,7 +30,7 @@ Widgets=widgets(window)
 Machine_Learning=machine_learning()
 Graph=graph(window,Widgets)
 Control=control_panel(window,Widgets,Machine_Learning,Graph)
-
+#test
 
 
 FHS_label=Widgets.createLabel(window,"Furkan Hasan Sakacı",900,580)
