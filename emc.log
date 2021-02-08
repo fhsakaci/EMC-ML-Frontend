@@ -11180,3 +11180,270 @@ Name: Level, Length: 2000, dtype: float64[0m
 [32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
 [32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
 [32mINFO    [0m [34mEager execution: True[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[32mINFO    [0m [34m[[[55.098343]
+  [55.098343]
+  [55.098343]
+  ...
+  [33.80401 ]
+  [33.80336 ]
+  [33.80272 ]]][0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mC:/Users/Administrator/Desktop/LM3429_Buck_Boost_Design/High/CE_High_Measurements.csv[0m
+[36mDEBUG   [0m [34m   In Cap  Out Cap  SW Freq  Frequency   Level
+0    10.0     29.4    31000   150000.0  64.694
+1    10.0     29.4    31000   152000.0  63.472
+2    10.0     29.4    31000   153000.0  62.889
+3    10.0     29.4    31000   155000.0  63.556
+4    10.0     29.4    31000   155000.0  63.556[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:       In Cap  Out Cap  SW Freq  Frequency   Level
+0       10.0     29.4    31000   150000.0  64.694
+1       10.0     29.4    31000   152000.0  63.472
+2       10.0     29.4    31000   153000.0  62.889
+3       10.0     29.4    31000   155000.0  63.556
+4       10.0     29.4    31000   155000.0  63.556
+...      ...      ...      ...        ...     ...
+1995    34.7      4.7    14000   963000.0  27.528
+1996    34.7      4.7    14000   971000.0  27.722
+1997    34.7      4.7    14000   981000.0  28.139
+1998    34.7      4.7    14000   990000.0  27.972
+1999    34.7      4.7    14000  1000000.0  28.500
+
+[2000 rows x 5 columns][0m
+[32mINFO    [0m [34mFeatures:       In Cap  Out Cap  SW Freq  Frequency
+0       10.0     29.4    31000   150000.0
+1       10.0     29.4    31000   152000.0
+2       10.0     29.4    31000   153000.0
+3       10.0     29.4    31000   155000.0
+4       10.0     29.4    31000   155000.0
+...      ...      ...      ...        ...
+1995    34.7      4.7    14000   963000.0
+1996    34.7      4.7    14000   971000.0
+1997    34.7      4.7    14000   981000.0
+1998    34.7      4.7    14000   990000.0
+1999    34.7      4.7    14000  1000000.0
+
+[2000 rows x 4 columns][0m
+[32mINFO    [0m [34mLabel: 0       64.694
+1       63.472
+2       62.889
+3       63.556
+4       63.556
+         ...  
+1995    27.528
+1996    27.722
+1997    28.139
+1998    27.972
+1999    28.500
+Name: Level, Length: 2000, dtype: float64[0m
+[32mINFO    [0m [34mModel has been created[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mC:/Users/Administrator/Desktop/LM3429_Buck_Boost_Design/High/CE_High_Measurements.csv[0m
+[36mDEBUG   [0m [34m   In Cap  Out Cap  SW Freq  Frequency   Level
+0    10.0     29.4    31000   150000.0  64.694
+1    10.0     29.4    31000   152000.0  63.472
+2    10.0     29.4    31000   153000.0  62.889
+3    10.0     29.4    31000   155000.0  63.556
+4    10.0     29.4    31000   155000.0  63.556[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:       In Cap  Out Cap  SW Freq  Frequency   Level
+0       10.0     29.4    31000   150000.0  64.694
+1       10.0     29.4    31000   152000.0  63.472
+2       10.0     29.4    31000   153000.0  62.889
+3       10.0     29.4    31000   155000.0  63.556
+4       10.0     29.4    31000   155000.0  63.556
+...      ...      ...      ...        ...     ...
+1995    34.7      4.7    14000   963000.0  27.528
+1996    34.7      4.7    14000   971000.0  27.722
+1997    34.7      4.7    14000   981000.0  28.139
+1998    34.7      4.7    14000   990000.0  27.972
+1999    34.7      4.7    14000  1000000.0  28.500
+
+[2000 rows x 5 columns][0m
+[32mINFO    [0m [34mFeatures:       In Cap  Out Cap  SW Freq  Frequency
+0       10.0     29.4    31000   150000.0
+1       10.0     29.4    31000   152000.0
+2       10.0     29.4    31000   153000.0
+3       10.0     29.4    31000   155000.0
+4       10.0     29.4    31000   155000.0
+...      ...      ...      ...        ...
+1995    34.7      4.7    14000   963000.0
+1996    34.7      4.7    14000   971000.0
+1997    34.7      4.7    14000   981000.0
+1998    34.7      4.7    14000   990000.0
+1999    34.7      4.7    14000  1000000.0
+
+[2000 rows x 4 columns][0m
+[32mINFO    [0m [34mLabel: 0       64.694
+1       63.472
+2       62.889
+3       63.556
+4       63.556
+         ...  
+1995    27.528
+1996    27.722
+1997    28.139
+1998    27.972
+1999    28.500
+Name: Level, Length: 2000, dtype: float64[0m
+[32mINFO    [0m [34mModel has been created[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mC:/Users/Administrator/Desktop/LM3429_Buck_Boost_Design/High/CE_High_Measurements.csv[0m
+[36mDEBUG   [0m [34m   In Cap  Out Cap  SW Freq  Frequency   Level
+0    10.0     29.4    31000   150000.0  64.694
+1    10.0     29.4    31000   152000.0  63.472
+2    10.0     29.4    31000   153000.0  62.889
+3    10.0     29.4    31000   155000.0  63.556
+4    10.0     29.4    31000   155000.0  63.556[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:       In Cap  Out Cap  SW Freq  Frequency   Level
+0       10.0     29.4    31000   150000.0  64.694
+1       10.0     29.4    31000   152000.0  63.472
+2       10.0     29.4    31000   153000.0  62.889
+3       10.0     29.4    31000   155000.0  63.556
+4       10.0     29.4    31000   155000.0  63.556
+...      ...      ...      ...        ...     ...
+1995    34.7      4.7    14000   963000.0  27.528
+1996    34.7      4.7    14000   971000.0  27.722
+1997    34.7      4.7    14000   981000.0  28.139
+1998    34.7      4.7    14000   990000.0  27.972
+1999    34.7      4.7    14000  1000000.0  28.500
+
+[2000 rows x 5 columns][0m
+[32mINFO    [0m [34mFeatures:       In Cap  Out Cap  SW Freq  Frequency
+0       10.0     29.4    31000   150000.0
+1       10.0     29.4    31000   152000.0
+2       10.0     29.4    31000   153000.0
+3       10.0     29.4    31000   155000.0
+4       10.0     29.4    31000   155000.0
+...      ...      ...      ...        ...
+1995    34.7      4.7    14000   963000.0
+1996    34.7      4.7    14000   971000.0
+1997    34.7      4.7    14000   981000.0
+1998    34.7      4.7    14000   990000.0
+1999    34.7      4.7    14000  1000000.0
+
+[2000 rows x 4 columns][0m
+[32mINFO    [0m [34mLabel: 0       64.694
+1       63.472
+2       62.889
+3       63.556
+4       63.556
+         ...  
+1995    27.528
+1996    27.722
+1997    28.139
+1998    27.972
+1999    28.500
+Name: Level, Length: 2000, dtype: float64[0m
+[32mINFO    [0m [34mModel has been created[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mC:/Users/Administrator/Desktop/LM3429_Buck_Boost_Design/High/CE_High_Measurements.csv[0m
+[36mDEBUG   [0m [34m   In Cap  Out Cap  SW Freq  Frequency   Level
+0    10.0     29.4    31000   150000.0  64.694
+1    10.0     29.4    31000   152000.0  63.472
+2    10.0     29.4    31000   153000.0  62.889
+3    10.0     29.4    31000   155000.0  63.556
+4    10.0     29.4    31000   155000.0  63.556[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:       In Cap  Out Cap  SW Freq  Frequency   Level
+0       10.0     29.4    31000   150000.0  64.694
+1       10.0     29.4    31000   152000.0  63.472
+2       10.0     29.4    31000   153000.0  62.889
+3       10.0     29.4    31000   155000.0  63.556
+4       10.0     29.4    31000   155000.0  63.556
+...      ...      ...      ...        ...     ...
+1995    34.7      4.7    14000   963000.0  27.528
+1996    34.7      4.7    14000   971000.0  27.722
+1997    34.7      4.7    14000   981000.0  28.139
+1998    34.7      4.7    14000   990000.0  27.972
+1999    34.7      4.7    14000  1000000.0  28.500
+
+[2000 rows x 5 columns][0m
+[32mINFO    [0m [34mFeatures:       In Cap  Out Cap  SW Freq  Frequency
+0       10.0     29.4    31000   150000.0
+1       10.0     29.4    31000   152000.0
+2       10.0     29.4    31000   153000.0
+3       10.0     29.4    31000   155000.0
+4       10.0     29.4    31000   155000.0
+...      ...      ...      ...        ...
+1995    34.7      4.7    14000   963000.0
+1996    34.7      4.7    14000   971000.0
+1997    34.7      4.7    14000   981000.0
+1998    34.7      4.7    14000   990000.0
+1999    34.7      4.7    14000  1000000.0
+
+[2000 rows x 4 columns][0m
+[32mINFO    [0m [34mLabel: 0       64.694
+1       63.472
+2       62.889
+3       63.556
+4       63.556
+         ...  
+1995    27.528
+1996    27.722
+1997    28.139
+1998    27.972
+1999    28.500
+Name: Level, Length: 2000, dtype: float64[0m
+[32mINFO    [0m [34mModel has been created[0m
+[32mINFO    [0m [34mSetting a signal for EMC Learning System[0m
+[32mINFO    [0m [34mTensorFlow version: 2.3.0[0m
+[32mINFO    [0m [34mEager execution: True[0m
+[36mDEBUG   [0m [34mC:/Users/Administrator/Desktop/LM3429_Buck_Boost_Design/High/CE_High_Measurements.csv[0m
+[36mDEBUG   [0m [34m   In Cap  Out Cap  SW Freq  Frequency   Level
+0    10.0     29.4    31000   150000.0  64.694
+1    10.0     29.4    31000   152000.0  63.472
+2    10.0     29.4    31000   153000.0  62.889
+3    10.0     29.4    31000   155000.0  63.556
+4    10.0     29.4    31000   155000.0  63.556[0m
+[32mINFO    [0m [34mLocal copy of the dataset file:       In Cap  Out Cap  SW Freq  Frequency   Level
+0       10.0     29.4    31000   150000.0  64.694
+1       10.0     29.4    31000   152000.0  63.472
+2       10.0     29.4    31000   153000.0  62.889
+3       10.0     29.4    31000   155000.0  63.556
+4       10.0     29.4    31000   155000.0  63.556
+...      ...      ...      ...        ...     ...
+1995    34.7      4.7    14000   963000.0  27.528
+1996    34.7      4.7    14000   971000.0  27.722
+1997    34.7      4.7    14000   981000.0  28.139
+1998    34.7      4.7    14000   990000.0  27.972
+1999    34.7      4.7    14000  1000000.0  28.500
+
+[2000 rows x 5 columns][0m
+[32mINFO    [0m [34mFeatures:       In Cap  Out Cap  SW Freq  Frequency
+0       10.0     29.4    31000   150000.0
+1       10.0     29.4    31000   152000.0
+2       10.0     29.4    31000   153000.0
+3       10.0     29.4    31000   155000.0
+4       10.0     29.4    31000   155000.0
+...      ...      ...      ...        ...
+1995    34.7      4.7    14000   963000.0
+1996    34.7      4.7    14000   971000.0
+1997    34.7      4.7    14000   981000.0
+1998    34.7      4.7    14000   990000.0
+1999    34.7      4.7    14000  1000000.0
+
+[2000 rows x 4 columns][0m
+[32mINFO    [0m [34mLabel: 0       64.694
+1       63.472
+2       62.889
+3       63.556
+4       63.556
+         ...  
+1995    27.528
+1996    27.722
+1997    28.139
+1998    27.972
+1999    28.500
+Name: Level, Length: 2000, dtype: float64[0m
+[32mINFO    [0m [34mModel has been created[0m
+[31mERROR   [0m [34mInterrupt signal caught, process exiting...[0m

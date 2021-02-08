@@ -62,6 +62,9 @@ class machine_learning():
             validation_split = 0.2)
 
         self.logger.info("Model has been created")
+        #dot_img_file = "model_1.png"
+        #tf.keras.utils.plot_model(model, to_file=dot_img_file, show_shapes=True)
+
         return model    
 
     def predict(self,path):
