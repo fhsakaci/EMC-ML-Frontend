@@ -7,6 +7,8 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 from tensorflow.keras import layers
 from tensorflow.keras.layers.experimental import preprocessing
+from matplotlib import pyplot
+
 
 class machine_learning():
     
@@ -53,7 +55,7 @@ class machine_learning():
                 loss='mean_squared_error',
                 metrics=['accuracy'])
         ##time
-        model.fit(
+        history=model.fit(
             features, labels, 
             epochs=1000,
             # suppress logging
@@ -64,7 +66,13 @@ class machine_learning():
         self.logger.info("Model has been created")
         #dot_img_file = "model_1.png"
         #tf.keras.utils.plot_model(model, to_file=dot_img_file, show_shapes=True)
-
+        pyplot.title('Learning Curves')
+        pyplot.xlabel('Epoch')
+        pyplot.ylabel('Cross Entropy')
+        pyplot.plot(history.history['loss'], label='train')
+        pyplot.plot(history.history['val_loss'], label='val')
+        pyplot.legend()
+        pyplot.show()
         return model    
 
     def predict(self,path):
